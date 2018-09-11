@@ -20,5 +20,3 @@
       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
