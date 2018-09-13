@@ -42,27 +42,29 @@ body {
     font-size: 4.5rem; }
   .header .main-button-group {
     margin-top: 5em; }
+    .header .main-button-group .main-buttons, .header .main-button-group .main-button-1, .header .main-button-group .main-button-2 {
+      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2); }
     .header .main-button-group .main-button-1 {
       border-bottom-left-radius: 10px;
       border-top-left-radius: 10px;
-      background-color: #ffffff;
-      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2); }
-      .header .main-button-group .main-button-1 a {
+      background-color: #ffffff; }
+      .header .main-button-group .main-button-1 .main-link, .header .main-button-group .main-button-1 a, .header .main-button-group .main-button-1 .main-button-2 a, .header .main-button-group .main-button-2 .main-button-1 a {
         text-decoration: none;
-        color: #6f13b1;
         font-size: 2.5em; }
+      .header .main-button-group .main-button-1 a {
+        color: #6f13b1; }
         .header .main-button-group .main-button-1 a:hover {
           color: #4c0e79;
           transition: .5s; }
     .header .main-button-group .main-button-2 {
       border-bottom-right-radius: 10px;
       border-top-right-radius: 10px;
-      background-color: #4c0e79;
-      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.2); }
-      .header .main-button-group .main-button-2 a {
+      background-color: #4c0e79; }
+      .header .main-button-group .main-button-2 .main-link, .header .main-button-group .main-button-2 .main-button-1 a, .header .main-button-group .main-button-1 .main-button-2 a, .header .main-button-group .main-button-2 a {
         text-decoration: none;
-        color: #d6d6d6;
         font-size: 2.5em; }
+      .header .main-button-group .main-button-2 a {
+        color: #d6d6d6; }
         .header .main-button-group .main-button-2 a:hover {
           color: #ffffff;
           transition: .5s; }

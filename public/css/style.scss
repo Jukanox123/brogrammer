@@ -72,15 +72,22 @@ body {
 
   .main-button-group {
     margin-top: 5em;
+
+    .main-buttons {
+      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, .2);
+    }
     .main-button-1 {
+      @extend .main-buttons;
       border-bottom-left-radius: 10px;
       border-top-left-radius: 10px;
       background-color: $white;
-      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, .2);
-      a {
+      .main-link {
         text-decoration: none;
-        color: $purple;
         font-size: 2.5em;
+      }
+      a {
+        @extend .main-link;
+        color: $purple;
         &:hover {
           color: $purpledark;
           transition: .5s;
@@ -88,14 +95,17 @@ body {
       }
     }
     .main-button-2 {
+      @extend .main-buttons;
       border-bottom-right-radius: 10px;
       border-top-right-radius: 10px;
       background-color: $purpledark;
-      box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, .2);
-      a {
+      .main-link {
         text-decoration: none;
-        color: $greylight;
         font-size: 2.5em;
+      }
+      a {
+        @extend .main-link;
+        color: $greylight;
         &:hover {
           color: $white;
           transition: .5s;
