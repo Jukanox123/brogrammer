@@ -4,37 +4,59 @@
 
 @section('content')
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Fixed navbar</a>
+        <!------------------>
+        <!----- Navbar ----->
+        <!------------------>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg">
+            <a class="navbar-brand navbarTitle" href="#">
+                <img src="#" width="30" height="30"
+                     class="d-inline-block align-top" alt="">Brogrammer
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav mr-auto ml-5 link-list">
+                    <li class="nav-item">
+                        <a class="nav-link navbarTitle" href="#">A propos <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link navbarTitle" href="#">Notre stratégie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link navbarTitle" href="#">L'équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbarTitle" href="#">Contact</a>
                     </li>
                 </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+                <span class="navbar-text">
+                    <a href="#" class="navbarTitle">English</a>
+                </span>
             </div>
         </nav>
 
-        <div class="jumbotron p-3 p-md-5 mt-5 text-white rounded bg-dark test">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
-                    efficiently about what's most interesting in this post's contents.</p>
-                <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+        <!------------------>
+        <!----- Header ----->
+        <!------------------>
+        <div class="pt-0 p-md-5 text-white header">
+            <div class="col-md-6 main-title">
+                <h1 class="display-3">Mettez votre entreprise sur le devant de la scène</h1>
+                <hr>
+                <br>
+                <p class="lead my-3">Nous vous accompagnons sur votre projet pour augmenter votre visibilité sur
+                    Internet.</p>
+            </div>
+
+            <div class="row text-center text-uppercase font-weight-bold align-middle main-button-group">
+                <div class="col-md-2 offset-4 pt-2 pb-2 main-button-1">
+                    <a href="#">En <br>savoir plus</a>
+                </div>
+                <div class="col-md-2 pt-2 pb-2 main-button-2">
+                    <a href="#">Nous <br>contacter</a>
+                </div>
             </div>
         </div>
 
