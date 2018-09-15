@@ -9,7 +9,7 @@
                 scroll_start = $(this).scrollTop();
                 if (scroll_start > offset.top) {
                     $("nav").css('background-color', 'white');
-                    $(".navbarTitle").css('color', '#6f13b1');
+                    $(".navbarTitle").css('color', '#05189a');
                 } else {
                     $('nav').css('background-color', 'transparent');
                     $(".navbarTitle").css('color', 'white');
