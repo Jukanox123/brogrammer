@@ -11,6 +11,14 @@
   transition: $transition;
 }
 
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+
 @mixin box-sizing($box-sizing) {
   -webkit-box-sizing: $box-sizing;
   -moz-box-sizing: $box-sizing;

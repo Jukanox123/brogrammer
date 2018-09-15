@@ -7,6 +7,7 @@
 /* ===============*/
 ::-webkit-scrollbar {
   width: 15px;
+  max-width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -79,8 +80,14 @@ body {
   }
 
   .main-btn {
-    border-radius: 2em;
-    @include box-shadow(0 .5rem 1.5rem rgba(0, 0, 0, .15));
+    border-radius: 5px;
+    @include box-shadow(0 4px 6px rgba(50, 50, 93, .55));
+    @include transition(all .22s);
+    &:hover {
+      @include transform(translateY(-2px));
+      @include box-shadow(0 6px 14px rgba(50, 50, 93, .5));
+      filter: brightness(130%);
+    }
   }
   .about-btn {
     @extend .main-btn;
@@ -88,12 +95,14 @@ body {
     &:hover {
       background-color: transparent;
       color: $white;
+      @extend .main-btn:hover;
     }
   }
   .contact-btn {
     @extend .main-btn;
     &:hover {
-      color: $blue;
+      color: $bluedarkhalf;
+      @extend .main-btn:hover;
     }
   }
 }

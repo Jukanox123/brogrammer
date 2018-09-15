@@ -94,10 +94,11 @@
         </div>
     </div>
 
+    <!--------------------->
+    <!-------- Plan ------->
+    <!--------------------->
     <div class="container-fluid section-plan">
-        <!--------------------->
-        <!-------- Plan ------->
-        <!--------------------->
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 pt-5 pb-5">
@@ -108,58 +109,67 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <div class="container-fluid">
             <div class="row">
-                <div class="mb-30 col-md-5 col-lg-4 offset-2">
-                    <div class="card">
-                        <i class="fab fa-angrycreative fa-6x card-icon"></i>
-                        <h3 class="card-title">Étape 1 - Monitoring</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
-                            doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
-                            nesciunt
-                            numquam porro qui sed tempore ullam voluptates!
-                        </p>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="mb-30 col-md-5 col-lg-4 offset-md-1">
+                            <div class="card">
+                                <i class="fab fa-angrycreative fa-6x card-icon"></i>
+                                <h3 class="card-title">Étape 1 - Monitoring</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
+                                    doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
+                                    nesciunt
+                                    numquam porro qui sed tempore ullam voluptates!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mb-30 col-md-5 col-lg-4">
+                            <div class="card">
+                                <i class="fab fa-angrycreative fa-6x card-icon"></i>
+                                <h3 class="card-title">Étape 1 - Monitoring</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
+                                    doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
+                                    nesciunt
+                                    numquam porro qui sed tempore ullam voluptates!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="mb-30 col-md-5 col-lg-4">
-                    <div class="card">
-                        <i class="fab fa-angrycreative fa-6x card-icon"></i>
-                        <h3 class="card-title">Étape 1 - Monitoring</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
-                            doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
-                            nesciunt
-                            numquam porro qui sed tempore ullam voluptates!
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="mb-30 col-md-4 col-lg-4 offset-2">
-                    <div class="card">
-                        <i class="fab fa-angrycreative fa-6x card-icon"></i>
-                        <h3 class="card-title">Étape 1 - Monitoring</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
-                            doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
-                            nesciunt
-                            numquam porro qui sed tempore ullam voluptates!
-                        </p>
+                    <div class="row">
+                        <div class="mb-30 col-md-4 col-lg-4 offset-md-1">
+                            <div class="card">
+                                <i class="fab fa-angrycreative fa-6x card-icon"></i>
+                                <h3 class="card-title">Étape 1 - Monitoring</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
+                                    doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
+                                    nesciunt
+                                    numquam porro qui sed tempore ullam voluptates!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mb-30 col-md-4 col-lg-4">
+                            <div class="card">
+                                <i class="fab fa-angrycreative fa-6x card-icon"></i>
+                                <h3 class="card-title">Étape 1 - Monitoring</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
+                                    doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
+                                    nesciunt
+                                    numquam porro qui sed tempore ullam voluptates!
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="mb-30 col-md-4 col-lg-4">
-                    <div class="card">
-                        <i class="fab fa-angrycreative fa-6x card-icon"></i>
-                        <h3 class="card-title">Étape 1 - Monitoring</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque
-                            doloribus eaque eius esse et, fuga laudantium natus non obcaecati. Dolorem itaque
-                            nesciunt
-                            numquam porro qui sed tempore ullam voluptates!
-                        </p>
-                    </div>
+                <div class="col-md-3">
+                    <img src="{{ asset('img/background_about.png') }}" alt="">
                 </div>
             </div>
         </div>
