@@ -98,7 +98,6 @@
         <!--------------------->
         <!-------- Plan ------->
         <!--------------------->
-
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 pt-5 pb-5">
